@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+}
+.img{
+    border-radius: 1000px;
+    width: 70px;
+    height: 60px;
+    background-size: center;
+}
+.card{
+    background:linear-gradient(90deg,rgba(19, 6, 6, 0.87),rgba(255, 255, 255, 0.829),rgba(0, 0, 0, 0.829));
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid rgb(197, 185, 185);
+    border-left: 2px solid rgba(167, 159, 159, 0.815);
+    color: white;
+    
+}
+.Card.Img{
+    width: 100%;
+    border: none;
+}
+.row{
+    background-color: black;
+}

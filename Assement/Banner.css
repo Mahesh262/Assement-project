@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid green;  */
+}
+
+#lowertext{
+    font-size: 50px;
+    background: linear-gradient(90deg,rgba(200, 55, 230, 0.877), rgb(89, 89, 230), rgba(77, 77, 204, 0.521));
+     -webkit-text-fill-color:transparent;
+     background-clip: text;
+}
+#register{
+    background: linear-gradient(90deg,rgba(200, 55, 230, 0.877), rgb(89, 89, 230), rgba(77, 77, 204, 0.521));
+     -webkit-text-fill-color:transparent;
+     background-clip: text;
+}
+ input[type=text]{
+     border: 2px solid rgb(128, 0, 107);
+     height: 40px;
+     border-radius: 5px;
+     text-align: center;
+     background: transparent;
+     color:white;
+ }
+ input::placeholder{
+     color:aliceblue;
+ }
+ .sidetext{
+    background: linear-gradient(90deg,rgba(200, 55, 230, 0.877), rgb(89, 89, 230), rgba(77, 77, 204, 0.521));
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+    transform: translate(80px,-10px)
+    
+     
+}
+.sideh1{
+    font-size: 60px;
+}
+#register{
+    background: linear-gradient(90deg,rgba(200, 55, 230, 0.877), rgb(89, 89, 230), rgba(77, 77, 204, 0.521));
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+.extras{
+    font-size: 10px;
+    color: blueviolet;
+     padding-left: 200px;
+}
